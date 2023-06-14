@@ -8,7 +8,7 @@
    var mujeres=document.querySelector("#mujeres");
    var adolescente=document.querySelector("#adolescente");
    var imgPuerta= document.querySelector("#imgPuerta");
-   var imgCarousel=document.querySelector("#img");
+   
    // función para cambiar color de letra según 
    //el tamaño de pantalla.
     
@@ -17,7 +17,7 @@ function cambio(){
   if (window.screen.width > 891){
       
     imgPuerta.style.height="350px";
-	 imgCarousel.style.height="1200px"; 
+	 
       for(let i=0; i<clase.length;i++){
           clase[i].style.color="white";
           clase[i].style.borderBottom="2px solid Grey";
