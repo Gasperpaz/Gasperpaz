@@ -1,0 +1,293 @@
+
+
+
+#cabecera{
+  
+ /*padding-top:450px;
+ 
+ /*background-image: url("../ovejas.jpg");
+/*background-attachment: fixed; efecto imagen*/
+ 
+  background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
+
+  
+}
+#logo{
+    margin-top: -90px;
+    z-index:1;
+	position:absolute;
+}
+#titulo{
+/*border-bottom: 2px solid Grey;*/
+font-weight: bold;
+ color: black; 
+}
+#itemMenu{
+/*-webkit-text-fill-color: white;
+-webkit-text-stroke: 1px black;*/
+font-weight: bold;
+ color:white;
+  font-size:20px;
+    
+}
+.navbar-toggler{
+    
+    border: none;
+    
+    
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+#itemMenu:active{
+    
+    color:black;
+}
+
+.navScroll{
+    padding-top: 5px;
+    height: 45px;
+    background-color:black;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    
+}
+.navbar{
+    transition: all 5s;
+    
+}
+.carousel-item{
+  /*transition: all 10s;*/
+border: 5px solid #887744;
+  transition: transform 3s;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 4s 2.6s;
+  
+}
+
+ #img{
+  background-image: url("../ovejas.jpg");
+  width:100%;
+  height:400px;
+  background-size:100% 100%;
+  
+  /*background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;*/
+
+}
+
+ #img2{
+  background-image: url("../paisaje.jpg");
+  width:100%;
+  height:400px;
+  background-size:100% 100%;
+  /*background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;*/
+
+}
+
+ #img3{
+  background-image: url("../paisaje2.jpg");
+  width:100%;
+  height:400px;
+  background-size:100% 100%;
+ /* background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;*/
+
+}
+
+
+#bienvenido{
+    
+    margin-top:50px;
+    -webkit-text-fill-color: white;
+-webkit-text-stroke: 2px black;
+    font-family: cursive;
+box-shadow: 0 30px 80px rgba(0,0,0,1);
+    border-radius: 15px;
+}
+#cajaBienvenido{
+    
+   width: 100%;
+  height:100%;
+   
+    
+}
+#imgPuerta{
+/*background-image: url('../puerta.gif');*/
+ /*background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: center center;
+   overflow: hidden;
+    
+  
+background-size:center;*/
+
+/* overflow: cover;*/
+    border-radius: 30px;
+  
+}
+h1{
+ font-size:30px;
+}
+h5{
+  font-size:20px;
+}
+
+#imgBarca{
+  border-top-left-radius:60px;
+  border-bottom-right-radius:60px;
+  box-shadow: 15px 10px 8px #888888
+}
+#fotos{
+  /*border-top-left-radius:35px;
+  border-top-right-radius:35px;
+  border-bottom-left-radius:35px;
+  border-bottom-right-radius:35px;*/
+ 
+}
+#pie{
+  background-color:Black;
+  height:100%;
+  padding-top:80px;
+ color:White;
+ border-top-left-radius:25px;
+ border-top-right-radius:25px;
+ 
+}
+
+
+.nav-item{
+  
+  background-color:GrayText;
+  width:120px;
+  border-top-right-radius:15px;
+  border-bottom-left-radius:15px;
+  border: 2px solid Black;
+ /* opacity:0.8;*/
+ 
+}
+#copering{
+  margin-top:20px;
+  font-size:15px;
+}
+#leyendaPastores{
+  margin-top:10px;
+  font-size:20px;
+}
+p{
+  font-size:20px;
+}
+#imgReuniones{
+  border-top-left-radius:45px;
+  border-top-right-radius:45px;
+  border-bottom-left-radius:45px;
+  border-bottom-right-radius:45px;
+margin-top:30px;
+border: 4px solid Black;
+}
+#celula{
+  padding-top:60px;
+  background-image: url('../atardecer.jpg');
+background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+
+  padding-bottom: 30px;
+  border-radius: 35px;
+  border: 6px solid Black;
+}
+#nosotros{
+ padding-top:80px;
+ 
+ /*background-image: url("../fondo-verde6.png");
+/*background-attachment: fixed; efecto imagen*/
+
+/*border-bottom-right-radius:60px;
+border-bottom-left-radius:120px;*/
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-position: cover;
+overflow: hidden;
+  }
+  #tituloNosotros{
+    
+margin-top: 60px;
+  margin-bottom: 90px;
+  border: 5px solid #888800;
+  border-radius: 30px;
+  }
+  
+  #varones{
+	
+	
+	/*margin-bottom:80px;*/
+	/*background-image: url("../fondo-naranja.png");*/
+/*background-attachment: fixed; efecto imagen*/
+
+/*border-bottom-right-radius:60px;
+border-bottom-left-radius:120px;*/
+ background-repeat:no-repeat;
+ background-size: cover;
+ background-position: center center;
+overflow: hidden;
+  }
+  #imgVarones{
+	border-top-left-radius:45px;
+ /* border-top-right-radius:45px;
+  border-bottom-left-radius:45px;
+  border-bottom-right-radius:45px;*/
+box-shadow: 15px 10px 8px #888888;
+margin-top:40px;
+	
+  }
+#tituloVarones{
+  margin-top: 110px;
+  margin-bottom: 70px;
+  border: 5px solid #888888;
+  border-radius: 30px;
+}
+#mujeres{
+  padding-top: 10px;
+}
+#adolescente{
+  padding-top: 10px;
+  
+}
+
+samp{
+  font-size:15px;
+}
+b{
+  font-size:15px;
+}
+.iconos{
+  display:flex;
+  align-content: center;
+justify-content: center;
+}
+#nuestrasReuniones{
+  border:solid 10px  rgba(251,135,28,1);
+  border-radius: 30px;
+box-shadow: 10px 15px 8px #888888 ;
+}
+.iconosSuperior {
+  
+  position: absolute;
+  z-index: 5;
+ 
+ margin-top: -45px;
+left: 200px;
+ 
+}
+
