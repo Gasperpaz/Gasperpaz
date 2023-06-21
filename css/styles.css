@@ -158,7 +158,7 @@ h5{
 }
 #pie{
   background-color:Black;
-  height:250px;
+  height:620px;
   padding-top:80px;
  color:White;
  border-top-left-radius:25px;
@@ -195,6 +195,8 @@ p{
   border-bottom-right-radius:45px;
 margin-top:30px;
 border: 4px solid Black;
+
+
 }
 #celula{
   padding-top:60px;
@@ -253,7 +255,7 @@ margin-top:40px;
   }
 #tituloVarones{
   margin-top: 110px;
-  margin-bottom: 70px;
+  
   border: 5px solid #888888;
   border-radius: 30px;
 }
@@ -263,6 +265,12 @@ margin-top:40px;
 #adolescente{
   padding-top: 10px;
   
+}
+#matrimonios{
+padding-top: 10px;
+}
+#ninos{
+padding-top: 10px;
 }
 
 samp{
@@ -275,6 +283,7 @@ b{
   display:flex;
   align-content: center;
 justify-content: center;
+margin-bottom: 60px;
 }
 #nuestrasReuniones{
   border:solid 10px  rgba(251,135,28,1);
@@ -285,9 +294,26 @@ box-shadow: 10px 15px 8px #888888 ;
   
   position: absolute;
   z-index: 5;
- 
  margin-top: -45px;
-left: 200px;
+left: 150px;
  
 }
-
+#menuCelulas{
+  color: White;
+}
+#imgCordon{
+  object-fit: cover;
+  
+}
+#imgCor{
+  margin-top: -10px;
+}
+#imgMatrimonios{
+	border-top-left-radius:45px;
+ /* border-top-right-radius:45px;
+  border-bottom-left-radius:45px;
+  border-bottom-right-radius:45px;*/
+box-shadow: 15px 10px 8px #888888;
+margin-top:40px;
+	margin-bottom: 60px;
+  }
